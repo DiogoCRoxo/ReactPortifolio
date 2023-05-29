@@ -1,4 +1,4 @@
-import IntroFile from "./components/Intro/IntroFile";
+import Intro from "./components/Intro/Intro";
 import Portifolio from "./components/Portifolio/Portifolio";
 import Testimonials from "./components/Testimonials/Testimonials";
 import TopBar from "./components/TopBar/TopBar";
@@ -15,7 +15,7 @@ function App() {
 			<TopBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 			<Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 			<div className="sections">
-				<IntroFile />
+				<Intro/>
 				<Portifolio />
 				<Works />
 				<Testimonials />
